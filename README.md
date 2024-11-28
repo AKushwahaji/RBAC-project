@@ -5,8 +5,10 @@
 ## Description
 This project implements Role-Based Access Control (RBAC), where users have different roles (Admin, Moderator, and User) and each role has specific access to certain routes within the application. It includes user authentication via login and registration, as well as role-specific routes for Admin, Moderator, and User.
 
-## Routes
+### ** Swagger Api documentation**
+`http://localhost:5000/api-docs`
 
+## Routes
 ### **Authentication Routes**
   `POST /api/auth/login`  
 
@@ -40,3 +42,4 @@ This project implements Role-Based Access Control (RBAC), where users have diffe
   `GET /api/users/receive_alerts`  
 
   `POST /api/users/incident_reporting`  
+
