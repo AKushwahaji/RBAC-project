@@ -1,0 +1,21 @@
+{
+  "admin": [
+    "manage_users",
+    "configure_system",
+    "access_data",
+    "generate_reports",
+    "handle_critical_alerts",
+    "assign_roles"
+  ],
+  "moderator": [
+    "monitor_alerts",
+    "incident_management",
+    "generate_reports",
+    "report_issues"
+  ],
+  "user": [
+    "view_dashboard",
+    "receive_alerts",
+    "incident_reporting"
+  ]
+}
